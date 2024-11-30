@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_K2_agony_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_K2_agony" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1408000001fs"></ZoomEndTime>
+      <Cursor1Time time="468963000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/tb_K2_agony/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_K2_agony/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_K2_agony/write_en">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_K2_agony/pc_bus">
+      <obj_property name="ElementShortName">pc_bus[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_bus[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_K2_agony/ra_bus">
+      <obj_property name="ElementShortName">ra_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ra_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_K2_agony/rb_bus">
+      <obj_property name="ElementShortName">rb_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rb_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_K2_agony/r0_bus">
+      <obj_property name="ElementShortName">r0_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r0_bus[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_K2_agony/dut/jump_bus">
+      <obj_property name="ElementShortName">jump_bus</obj_property>
+      <obj_property name="ObjectShortName">jump_bus</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_K2_agony/dut/js">
+      <obj_property name="ElementShortName">js</obj_property>
+      <obj_property name="ObjectShortName">js</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_K2_agony/dut/comand_bus">
+      <obj_property name="ElementShortName">comand_bus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">comand_bus[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+RA=0
+R1B=
+RO=RA
+RB=RA+RB
+JC=0
+RA=RA+RB
+RB=RA-RB
+RA=RA-RB
+J=2
